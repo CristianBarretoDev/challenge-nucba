@@ -288,6 +288,7 @@ nav ul li a:hover {
 	align-items: center;
 	text-align: center;
 	background-color: #fff;
+    border-radius: 10px;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
@@ -342,7 +343,7 @@ textarea{
 	width: 100%;
 	padding: 0.5rem 1rem;
 	background-color: #2ecc71;
-	color: #fff;
+	color: rgb(216, 105, 105);
 	font-size: 1.1rem;
 	border: none;
 	outline: none;
