@@ -207,6 +207,85 @@ nav ul li a:hover {
     background-size: cover;
 }
 
+
+
+.section-3-title {
+    position: relative;
+    top: 200px;
+    font-family: lato;
+    font-size: 50px;
+    color: rgb(247, 242, 242);
+}
+
+.section-3-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.section-3-cards-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.section-3-cards-container .card {
+    position: relative;
+    height: 200px;
+    background-color: white;
+    border-radius: 9px;
+    margin: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgb(0, 0, 0, 0.5);
+    transition: 0.5s ease-in-out;
+}
+
+.section-3-cards-container .card:hover {
+    height: 270px;
+    background-color: black;
+}
+
+.section-3-main .section-3-cards-container .card .img-container-card{
+    position: relative;
+    width: 307px;
+    height: 260px;
+    top: -60px;
+}
+
+.section-3-main .section-3-cards-container .card .img-container-card img {
+    max-width: 100%;
+    border-radius: 9px;
+}
+
+.section-3-cards-container .card .section-3-content {
+    position: relative;
+    top: -40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    font-family: lato;
+    font-size: 35px;
+}
+
+.section-3-cards-container .card:hover .section-3-content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40;
+    transition-delay: 0.3s;
+}
+
+
+
+
+
 /* -----section 4 */
 
 .section-4 {
