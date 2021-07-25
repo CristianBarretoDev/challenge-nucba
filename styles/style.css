@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+
+/* -------  HEADER ---------  */
+
+
 .main-header {
     display: flex;
     justify-content: center;
@@ -16,7 +20,7 @@
     width: 80%;
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 .main-list {
@@ -25,7 +29,7 @@
     font-family: lato;
 }
 
-.main-list-item { 
+.main-list-item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,4 +52,33 @@ nav ul li a:hover {
 .logo-img {
     width: 100px;
     z-index: 1;
+}
+
+/* ------ MAIN CONTAINER -------- */
+
+.main-container {
+    height: 100vh;
+    background: url(/componentes/img-main.jpg);
+    background-size: cover;
+}
+
+.main-title {
+    position: relative;
+    top: 300px;
+    left: 150px;
+    padding: 30px;
+}
+
+.main-title1 {
+    font-family: lato;
+    font-weight: 200;
+    font-size: 125px;    
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: #BFBFBF;
+    background: -webkit-linear-gradient(to right, #fffbfb 26%, #000000 38%);
+    background: -moz-linear-gradient(to right, #BFBFBF 26%, #000000 38%);
+    background: linear-gradient(to right, #fff7f7 6%, #000000 38%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
 }
