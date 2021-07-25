@@ -67,18 +67,34 @@ nav ul li a:hover {
     top: 300px;
     left: 150px;
     padding: 30px;
+    width: 50%;
 }
 
 .main-title1 {
     font-family: lato;
     font-weight: 200;
-    font-size: 125px;    
+    font-size: 110px;
     letter-spacing: 3px;
     text-transform: uppercase;
     background: #BFBFBF;
-    background: -webkit-linear-gradient(to right, #fffbfb 26%, #000000 38%);
-    background: -moz-linear-gradient(to right, #BFBFBF 26%, #000000 38%);
-    background: linear-gradient(to right, #fff7f7 6%, #000000 38%);
+    background: -webkit-linear-gradient(to right, #BFBFBF 44%, #000000 75%);
+    background: -moz-linear-gradient(to right, #BFBFBF 44%, #000000 75%);
+    background: linear-gradient(to right, #BFBFBF 44%, #000000 75%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;   
+    -webkit-text-fill-color: transparent;
 }
+
+.main-txt1 {
+    font-family: roboto;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 7px;
+    background: #BFBFBF;
+    background: -webkit-linear-gradient(to right, #BFBFBF 25%, #000000 60%);
+    background: -moz-linear-gradient(to right, #BFBFBF 25%, #000000 60%);
+    background: linear-gradient(to right, #BFBFBF 25%, #000000 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ------  SEGUNDO CONTAINER --------- */
