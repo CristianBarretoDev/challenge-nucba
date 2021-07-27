@@ -107,11 +107,18 @@ nav ul li a:hover {
     height: 100vh;
     background-color: rgb(112, 112, 112.);
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-image: url(/componentes/img-main2.jpg);
     background-size: cover;
 }
+
+.section-2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 
 .contendor-textos {
     display: flex;
@@ -303,6 +310,7 @@ nav ul li a:hover {
 }
 
 h2{
+    font-family: lato;
 	position: relative;
 	padding: 0 0 10px;
 	margin-bottom: 10px;
@@ -317,10 +325,11 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+    background-color: #000000;
 }
 
 .field{
+    font-family: roboto;
 	width: 100%;
 	border: 2px solid rgba(0, 0, 0, 0);
 	outline: none;
@@ -340,10 +349,11 @@ textarea{
 }
 
 .btn{
+    font-family: lato;
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color: #2ecc71;
-	color: rgb(216, 105, 105);
+	background-color: #000000;
+	color: rgb(255, 255, 255);
 	font-size: 1.1rem;
 	border: none;
 	outline: none;
@@ -356,7 +366,7 @@ textarea{
 }
 
 .field:focus{
-    border: 2px solid rgba(30,85,250,0.47);
+    border: 2px solid rgba(0, 0, 0);
     background-color: #fff;
 }
 
