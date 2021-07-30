@@ -362,7 +362,9 @@ textarea{
 }
 
 .btn:hover{
-    background-color: #27ae60;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid black;
 }
 
 .field:focus{
